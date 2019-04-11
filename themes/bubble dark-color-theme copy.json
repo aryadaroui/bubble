@@ -1,0 +1,313 @@
+{
+	"name": "bubble dark",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#12161b",
+		"editor.foreground": "#DDDDDD",
+		"editor.findMatchBackground": "#12161b",
+		"editorWidget.background": "#12161b",
+		"editorGroupHeader.tabsBackground": "#12161b",
+		"editorIndentGuide.background": "#2c3744",
+		"editorIndentGuide.activeBackground": "#4a5c72",
+		"activityBarBadge.background": "#d4306f",
+		"sideBar.background": "#12161b",
+		"sideBar.border": "#445468",
+		"peekViewEditor.background": "#192029",
+		"peekViewEditor.matchHighlightBackground": "#213042",
+		"input.background": "#253344",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"editorLineNumber.activeForeground": "#FF65A0",
+		"editorLineNumber.foreground": "#445468",
+		"titleBar.activeBackground": "#12161b",
+		"tab.inactiveBackground": "#12161b",
+		"tab.activeBorder": "#FF65A0",
+		"tab.inactiveForeground": "#4f6279",
+		"tab.activeForeground": "#dadada",
+		"menu.background": "#12161b",
+		"activityBar.background": "#12161b",
+		// "activityBar.border": "#4D4D4D",
+		"statusBar.foreground": "#DDDDDD",
+		// "statusBar.border": "#4D4D4D",
+		"statusBar.background": "#1A1A1A",
+		"statusBar.debuggingBackground": "#12161b",
+		"statusBar.noFolderBackground": "#12161b",
+		"dropdown.background": "#12161b",
+		"tab.border": "#12161b",
+		"tab.hoverBackground": "#181f25"
+	},
+	"tokenColors": [
+
+        {	// soft gray
+
+            "name": "soft gray",
+            "scope": [
+				"comment",
+                "markup.quote.markdown",
+                "meta.diff",
+                "meta.diff.header"
+            ],
+            "settings": {
+                "foreground": "#696969"
+            }
+		},
+		{	// hard gray
+            "name": "hard gray",
+            "scope": [
+				"string.quoted.docstring.multi.python",
+            ],
+            "settings": {
+                "foreground": "#4D4D4D"
+            }
+		},
+		{	// soft brown
+            "name": "soft brown",
+            "scope": [
+				
+            ],
+            "settings": {
+                "foreground": "#A06939"
+            }
+		},
+		{	// hard brown
+            "name": "hard brown",
+            "scope": [
+				
+            ],
+            "settings": {
+                "foreground": "#AB5712"
+            }
+		},
+		{	// hard red
+			"name": "hard red",
+			"scope": [
+				"support.type.exception.python"
+			],
+			"settings": {
+				"foreground": "#D01A1A",
+			}
+		},
+		{	// soft maroon
+			"name": "soft maroon",
+			"scope": [
+				
+
+			],
+			"settings": {
+				"foreground": "#FF65A0",
+			}
+		},
+		{	// hard maroon
+			"name": "hard maroon",
+			"scope": [
+				"keyword.control.flow.python"
+			],
+			"settings": {
+				"foreground": "#E30057",
+			}
+		},
+		{	// soft pink
+			"name": "soft pink",
+			"scope": [
+				"keyword.control.import.python",
+
+			],
+			"settings": {
+				"foreground": "#FF78D4",
+			}
+		},
+		{	// hard pink
+			"name": "hard pink",
+			"scope": [
+				"keyword.control",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#FF23A3",
+			}
+		},
+		{	// soft purple
+			"name": "soft purple",
+			"scope": [
+				"entity.name.function.python",
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#cc6dfc",
+			}
+		},
+		{	// hard purple
+			"name": "hard purple",
+			"scope": [
+				"support.function.magic.python",
+			],
+			"settings": {
+				"foreground": "#8f57ff",
+			}
+		},
+		{	// soft blue
+			"name": "soft blue",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#82B7FF",
+			}
+		},
+		{	// hard blue
+			"name": "hard blue",
+			"scope": [
+				"entity.name.type.class.python",
+				"entity.other.inherited-class.python",
+				"storage.type.number.python"
+			],
+			"settings": {
+				"foreground": "#0091ff",
+			}
+		},	
+		{	// soft cyan
+			"name": "soft cyan",
+			"scope": [
+				"variable.parameter.function.language.python",
+
+			],
+			"settings": {
+				"foreground": "#65F7FF",
+			}
+		},
+		{	// hard cyan
+			"name": "hard cyan",
+			"scope": [
+				"variable.language.special.self.python",
+			],
+			"settings": {
+				"foreground": "#00DFFD",
+			}
+		},	
+		{	// hard teal
+			"name": "hard teal",
+			"scope": [
+				"string",
+				// "punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#00DC9E",
+			}
+		},
+		{	// soft green
+			"name": "soft green",
+			"scope": [
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+				"foreground": "#ABF076",
+			}
+		},
+		{	// hard green
+			"name": "hard green",
+			"scope": [
+				
+			],
+			"settings": {
+				"foreground": "#24DD0B",
+			}
+		},
+		{	// soft yellow
+			"name": "soft yellow",
+			"scope": [
+				"support.function.builtin.python",
+				"support.type.python"
+			],
+			"settings": {
+				"foreground": "#ffe45c",
+			}
+		},
+		{	// hard yellow
+			"name": "hard yellow",
+			"scope": [
+				"support.variable.magic.python"
+			],
+			"settings": {
+				"foreground": "#E4B816",
+			}
+		},
+		{	// soft orange
+			"name": "soft orange",
+			"scope": [
+
+				"punctuation.separator",
+
+				"punctuation.section.function.begin.python",
+				"punctuation.section.class.begin.python",
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.section.function.begin.python",
+				"punctuation.section.function.end.python",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python",
+				"punctuation.definition.inheritance.begin.python",
+				"punctuation.definition.inheritance.end.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python"
+			],
+			"settings": {
+				"foreground": "#ffa23f",
+			}
+		},
+		{	// hard orange
+			"name": "hard orange",
+			"scope": [
+				"keyword.operator",
+
+			],
+			"settings": {
+				"foreground": "#ff590c",
+			}
+		},
+
+		{	// italics
+			"name": "italic",
+			"scope": [
+				"keyword.operator.logical.python",
+				"keyword.control",
+				"storage.type",
+				"keyword.control.import.python",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{	// underline
+			"name": "underline",
+			"scope": [
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{	// bold
+			"name": "bold",
+			"scope": [
+				"keyword.codetag.notation.python",
+				"entity.name.function.python",
+				"entity.name.type.class.python",
+				"support.function.magic.python"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{	// roman / upright / none
+			"name": "roman upright none",
+			"scope": [
+				"storage.type.format.python",
+				"storage.type.number.python"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+    ]
+}
