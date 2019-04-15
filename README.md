@@ -16,6 +16,8 @@ The colorful brackets are from [Bracket Pair Colorizer 2](https://marketplace.vi
 		"#FFE251"
 	]
 ```
+
+
 ![colors](bracket colors.png)
 
 
