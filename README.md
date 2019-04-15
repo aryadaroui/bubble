@@ -18,6 +18,6 @@ The colorful brackets are from [Bracket Pair Colorizer 2](https://marketplace.vi
 ```
 
 
-![colors](bracket colors.png)
+![colors](colors.png)
 
 
