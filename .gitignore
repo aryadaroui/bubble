@@ -9,6 +9,8 @@
 *.webloc
 *.WEBLOC
 *.DS_Store
+*test.py
+*.gitignore
 
 # Executables and libraries
 *.o

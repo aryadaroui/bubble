@@ -1,21 +1,38 @@
 {
-    "name": "bubble-dark",
-    "displayName": "bubble-dark",
-    "description": "bubble inspired dark theme using brighter rainbow colors",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.32.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "bubble dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/bubble dark-color-theme.json"
-            }
-        ]
-    }
+	"name": "bubble-dark",
+	"displayName": "bubble-dark",
+	"description": "bubble inspired dark theme using brighter rainbow colors",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "bubble dark high contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bubble dark high contrast.json"
+			},
+			{
+				"label": "bubble dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bubble dark.json"
+			},
+			{
+				"label": "bubble light",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bubble light.json"
+			}
+		]
+	},
+	"publisher": "aryadaroui",
+	"repository": "https://github.com/aryadaroui/bubble",
+	"__metadata": {
+		"id": "8476d3fe-ee72-401d-8adc-a17cb4d8cd76",
+		"publisherDisplayName": "aryadaroui",
+		"publisherId": "4cf6ddb5-f19f-4355-92f8-aa2270bf6060"
+	}
 }
