@@ -2,7 +2,7 @@
 	"name": "bubble-dark",
 	"displayName": "bubble-dark",
 	"description": "bubble inspired dark theme using brighter rainbow colors",
-	"version": "0.0.1",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
@@ -12,19 +12,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "bubble dark high contrast",
-				"uiTheme": "vs-dark",
-				"path": "./themes/bubble dark high contrast.json"
-			},
-			{
 				"label": "bubble dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/bubble dark.json"
-			},
-			{
-				"label": "bubble light",
-				"uiTheme": "vs-dark",
-				"path": "./themes/bubble light.json"
 			}
 		]
 	},
