@@ -164,7 +164,9 @@
 				"meta.function.python",
 				"entity.other.inherited-class",
 				"storage.type.built-in.primitive.c",
-				"storage.type.built-in.primitive.cpp"
+				"storage.type.built-in.primitive.cpp",
+				"support.type.python"
+
 				
 
 
@@ -180,7 +182,8 @@
 				"keyword.control",
 				"storage.type",
 				"punctuation.definition.decorator.python",
-				"keyword.other.using.directive.cpp"
+				"keyword.other.using.directive.cpp",
+				"storage.modifier.declaration.python"
 
 			],
 			"settings": {
@@ -258,6 +261,7 @@
 				"entity.name.type.class.cpp",
 				"variable.language.this.cpp",
 				"support.type"
+
 
 
 

@@ -9,3 +9,4 @@
 	- Enhanced Debug UI colors.
 	- Made find match more visible
 	- Made selected word highlight more visible
+	- added global and nonlocal coloring for python

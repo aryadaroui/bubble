@@ -2,7 +2,7 @@
 	"name": "bubble-dark",
 	"displayName": "bubble-dark",
 	"description": "bubble inspired dark theme using brighter rainbow colors",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
