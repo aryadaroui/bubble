@@ -4,7 +4,7 @@
 	"colors": {
 		"editor.background": "#21252A",
 		"editor.foreground": "#DDDDDD",
-		"editor.findMatchBackground": "#21252A",
+		"editor.findMatchBackground": "#8a741e",
 		"editorWidget.background": "#21252A",
 		"editorGroupHeader.tabsBackground": "#21252A",
 		"panel.background": "#21252A",
@@ -15,9 +15,12 @@
 
 		"editorIndentGuide.background": "#2c3744",
 		"editorIndentGuide.activeBackground": "#4a5c72",
+		"editor.selectionHighlightBackground": "#333c47",
 
 		"activityBar.background": "#21252A",
 		"activityBarBadge.background": "#d4306f",
+
+		"editor.lineHighlightBackground": "#2a2f36",
 
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#21252A",
@@ -51,7 +54,27 @@
 		"editorGutter.addedBackground": "#0d5e31",
 		"editorGutter.modifiedBackground": "#1e5382",
 		"editorGutter.deletedBackground": "#76162f",
-		"editor.selectionBackground": "#304052"
+		"editor.selectionBackground": "#304052",
+
+		"debugTokenExpression.name": "#CD76FC",
+		"debugTokenExpression.value": "#CCCCCC",
+		"debugTokenExpression.string": "#00DC9E",
+		"debugTokenExpression.boolean": "#82B7FF",
+		"debugTokenExpression.number": "#82B7FF",
+		"debugTokenExpression.error": "#F26664",
+
+		"debugIcon.stopForeground": "#F26664",
+		"debugIcon.startForeground": "#ABF076",
+		"debugIcon.restartForeground": "#E36E9B",
+		"debugIcon.continueForeground": "#67E1DD",
+		"debugIcon.stepOverForeground": "#67E1DD",
+		"debugIcon.stepIntoForeground": "#F0D060",
+		"debugIcon.stepOutForeground": "#F0D060"
+
+
+
+
+
 	
 	},
 	"tokenColors": [
@@ -126,7 +149,8 @@
 				"storage.type.class.cpp",
 				"storage.type.modifier.access.control.private.cpp",
 				"storage.type.modifier.access.control.public.cpp",
-				"storage.type.modifier.access.control.protected.cpp"
+				"storage.type.modifier.access.control.protected.cpp",
+				"keyword.other.typedef"
 
 			],
 			"settings": {
@@ -139,7 +163,6 @@
 
 				"meta.function.python",
 				"entity.other.inherited-class",
-				"support.type",
 				"storage.type.built-in.primitive.c",
 				"storage.type.built-in.primitive.cpp"
 				
@@ -171,7 +194,9 @@
 				"support.type.property-name.json",
 				"meta.function.c",
 				"entity.name.namespace.cpp",
-				"entity.name.scope-resolution.cpp"
+				"entity.name.scope-resolution.cpp",
+				"entity.name.function.preprocessor"
+
 			],
 			"settings": {
 				"foreground": "#CD76FC"
@@ -183,6 +208,8 @@
 				"support.function.magic",
 				"entity.name.function.definition.special.constructor.cpp",
 				"entity.name.function.definition.special.member.destructor.cpp"
+				
+				
 			],
 			"settings": {
 				"foreground": "#9966FF"
@@ -204,6 +231,7 @@
 			"scope": [
 				"storage.type.number",
 				"keyword.other.unit.hexadecimal.cpp"
+
 			],
 			"settings": {
 				"foreground": "#0090ff"
@@ -214,8 +242,8 @@
 			"scope": [
 				"variable.parameter.function.language",
 				"variable.parameter.function-call.python",
-				"meta.function.definition.parameters.c",
-				"entity.name.function.preprocessor"
+				"meta.function.definition.parameters.c"
+
 
 			],
 			"settings": {
@@ -228,7 +256,10 @@
 				"variable.language.special.self",
 				"entity.name.type.class",
 				"entity.name.type.class.cpp",
-				"variable.language.this.cpp"
+				"variable.language.this.cpp",
+				"support.type"
+
+
 
 			],
 			"settings": {
@@ -299,7 +330,13 @@
 				"punctuation.definition.list.begin",
 				"punctuation.definition.list.end",
 				"punctuation.section.function.lambda.begin.python",
-				"punctuation.terminator.statement.cpp"
+				"punctuation.terminator.statement.cpp",
+				"punctuation.terminator.statement.c",
+				"punctuation.section",
+				"punctuation.definition.begin.bracket.square.c",
+				"punctuation.definition.end.bracket.square.c",
+				"punctuation.separator.pointer-access.c"
+
 			],
 			"settings": {
 				"foreground": "#ffa23f"
@@ -342,7 +379,8 @@
 				"keyword.operator.logical",
 				"keyword.control",
 				"storage.type",
-				"keyword.control.import"
+				"keyword.control.import",
+				"keyword.other.typedef"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -382,7 +420,10 @@
 				"entity.name.function.preprocessor",
 				"meta.function.definition.parameters.c",
 				"entity.name.type.class.templated",
-				"entity.name.function.definition.cpp"
+				"entity.name.function.definition.cpp",
+				"storage.type.struct.c",
+				"storage.type.built-in.primitive.c",
+				"storage.type.union.c"
 			],
 			"settings": {
 				"fontStyle": ""
