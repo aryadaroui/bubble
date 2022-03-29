@@ -1,23 +1,21 @@
 # Bubble
 
-A VS Code theme with the goal of using as many meaningul colors as possible for Python syntax highlighting, but works fine for other languages too. Inspired by the colorful iridiescence on the thin film of bubbles.
+A VS Code theme with the goal of using as many meaningful colors as possible for Python and C syntax highlighting, but works fine for other languages too. Inspired by the colorful iridescence on the thin film of bubbles. A bit more info available [here](https://aryadaroui.github.io/2022/03/29/bubble-dark.html).
 
-![sample](sample.png)
+![sample](samplepy.png)
+
+![sample](samplec.png)
 
 
 
-The colorful brackets are from [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2), using the settings:
+The colorful bracket colors are:
 
 ```
-	"bracket-pair-colorizer-2.colors": [
-		"#FF4DBB",
-		"#AE70FF",
-		"#00DFFD",
-		"#FFE251"
-	]
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffa23f",
+		"editorBracketHighlight.foreground2": "#edd871",
+		"editorBracketHighlight.foreground3": "#75dc6f",
+		"editorBracketHighlight.foreground4": "#71e7e7",
+		"editorBracketHighlight.foreground5": "#986fe9",
+	},
 ```
-
-
-![colors](colors.png)
-
-
